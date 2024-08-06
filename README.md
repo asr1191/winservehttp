@@ -2,9 +2,9 @@
 A script to add a new option to your right-click context menu for directories, which instantly starts an HTTP file server that serves to your local network. Additionally also creates an `.m3u` playlist files so you can use a video player of your choice to play through the videos in present in the serving folder.
 
 ## REQUIREMENTS
-a. Windows 11
-b. [Node.js](https://nodejs.org/en)
-c. [git](https://git-scm.com/)
+1. Windows 11
+2. [Node.js](https://nodejs.org/en)
+3. [git](https://git-scm.com/)
 
 ## INSTALL
 
