@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Run HTTP Server Here]
+@="Run HTTP Server Here"
+"Icon"="%SystemRoot%\\System32\\shell32.dll,71"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Run HTTP Server Here\command]
+@="powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"%appdata%\\winservehttp\\run-http-server.ps1\" -path \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Run HTTP Server Here]
+@="Run HTTP Server Here"
+"Icon"="%SystemRoot%\\System32\\shell32.dll,71"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Run HTTP Server Here\command]
+@="powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"%appdata%\\winservehttp\\run-http-server.ps1\" -path \"%V\""
